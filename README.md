@@ -10,5 +10,5 @@ Data analysis for election data can be devided in three basic group.
 3. Prepare winner information.
 ![Winner Election result](election_3.png) 
 ## Summary:
-with help of python we can quickly able to analyze large amount of data. 
+with help of python we can quickly able to analyze large amount of data. we can able to find out the quick summary report as well as minimized the effort. 
 ![Election summary results](election_summary.png)

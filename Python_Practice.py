@@ -119,3 +119,29 @@ tot_vote = int(input("what is the total votes in the election? "))
 percentage_vote = (my_vote/tot_vote)*100
 print("i received " + str(percentage_vote) + " % of the total votes.")
 print(f'I recieved {my_vote/tot_vote * 100} % of the total votes')
+
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+for county,voters in counties_dict.items():
+    print(f'{county}county has {voters} registered voters')
+
+
+for county_dict in voting_data:
+    for value in county_dict.values():
+        print(value)
+
+for county_dict in voting_data:
+    for value in county_dict.values():
+        print(value)
+
+for county_dict in voting_data:
+    print(county_dict['county'])
+
+for county_dict in voting_data:
+    print(county_dict['registered_voters'])
+
+for county_dict in voting_data:
+    #print(county_dict['county'] + "county hsa " + str(county_dict['registered_voters']) + "registered voters")
+
+    print(f"{county_dict['county']} county has {county_dict['registered_voters']} registered voters.")
+
+print(county_dict)
