@@ -119,7 +119,11 @@ with open(file_to_load) as election_data:
             f"winning vote count: {winning_count:}\n"
             f"winning percentage: {winning_percentage:.1f}%\n"
             f"-----------------------------------------\n")
-        #print(winning_candidate_summary)
+        print(winning_candidate_summary)
+
+        # send candidate results to text file
+        txt_file.write(winning_candidate_summary)
+
 
 
 # using open function with w write permision we will open and the write to the file
