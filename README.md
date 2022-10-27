@@ -24,3 +24,25 @@ initially it was difficult to analize large amount of data in Excel, however pyt
 
 with help of python we can quickly able to analyze large amount of data. we can able to find out the quick summary report as well as minimized the effort. 
 ![Election summary results](election_summary.png)
+
+# Assignment:-
+## Overview of Election Audit:
+Colorado board of elections has databsae of election and would like to analyze it to obtain election results and data analysis for candidates and counties.
+## Election-Audit Results:
+Please refer the following election results,
+![Election results from text file](election_results-txt.png)
+1. 369,711 voters has casted their votes in this congressional election.
+2. Arapahoe county received total 38,855 votes witch is 10.5%.
+3. Denver county received total 306,055 votes witch is 82.8%.
+4. Jefferson county received total 24,801 votes witch is 6.7%.
+5. Denver county has largest number of votes.
+6. Charles Casper Stockham has received total 85,213 votes which is 23.0%.
+7. Diana DeGette has received total 272,892 votes which is 73.8%.
+8. Raymon Anthony Doane has received total 11,606 votes which is 3.1%.
+9. Diana DeGette has won the this election with total 272,892 votes which is 73.8% 
+## Election-Audit Summary:
+we have visualized from this data analysis,
+1. Diana DeGette has clearly wont election with high vote margin.
+2. Denver county has obtained hightest number of votes in this election.
+[Election results from CMD](election_result-cmd.png)
+
