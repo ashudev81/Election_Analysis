@@ -4,7 +4,7 @@ Tom would like to analyze election data to get election results.
 ## Results:
 Data analysis for election data can be devided in three basic group.
 1. Prepare the overall results.
-![Overall Election result](Resources\election_1.png)
+![Overall Election result](election_1.png)
 2. Prepare total votes received by all candidates.
 ![Candidate Election result](Resources\election_2.png) 
 3. Prepare winner information.
